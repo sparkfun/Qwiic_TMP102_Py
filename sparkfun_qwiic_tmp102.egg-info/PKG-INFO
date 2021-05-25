@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: sparkfun-qwiic-tmp102
+Version: 0.0.1
+Summary: SparkFun Electronics Qwiic TMP102 Sensor
+Home-page: https://www.sparkfun.com/products/16304
+Author: SparkFun Electronics
+Author-email: info@sparkfun.com
+License: MIT
+Description: SparkFun Qwiic TMP102 Sensor
+        ========================================================
+        
+        This package provdes support for the SparkFun Qwiic TMP102 Sensor breakout.
+        
+Keywords: electronics,maker
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
