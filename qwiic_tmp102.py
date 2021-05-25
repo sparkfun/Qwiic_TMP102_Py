@@ -1,7 +1,7 @@
 """
 qwiic_tmp102
 ============
-Python module for the [SparkFun Qwiic TMP102 Sensor](https://www.sparkfun.com/products/15805)
+Python module for the [SparkFun Qwiic TMP102 Sensor](https://www.sparkfun.com/products/16304)
 
 This python package is a port of the existing [SparkFun Qwiic TMP102 Sensor Arduino Examples](https://github.com/sparkfun/SparkFun_TMP102_Arduino_Library/tree/master/examples)
 
