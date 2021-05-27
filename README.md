@@ -116,6 +116,12 @@ def runExample():
 		print ("Temp in C: ", myTmpSensor.read_temp_c())
 		print ("--------------------------------------------")
 
+if __name__ == '__main__':
+	try:
+		runExample()
+	except (KeyboardInterrupt, SystemExit) as exErr:
+		print("\nEnding Example 1")
+		sys.exit(0)
 
 ```
 <p align="center">
