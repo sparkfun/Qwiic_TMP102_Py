@@ -93,7 +93,6 @@ def runExample():
 		temperature = myTmpSensor.read_temp_f()
 		
 		# Check for alert
-		#alertPinState = digitalRead(ALERT_PIN)			# read the Alert from pin
 		alertRegisterState = myTmpSensor.alert()		# read the Alert from register
 		
 		# Place sensor in sleep mode to save power.
@@ -101,7 +100,6 @@ def runExample():
 		myTmpSensor.sleep()
 		
 		print("Temperature: ", temperature)
-		#print ("Alert Pin: ", alertPinState)
 		print("Alert Register: ", alertRegisterState)
 		time.sleep(2)
 	
