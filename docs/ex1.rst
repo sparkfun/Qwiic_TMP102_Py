@@ -1,7 +1,7 @@
 
-Example1-GetReadings
+Example1-GetTemperature
 ---------------------------
-.. literalinclude:: ../examples/Example1-GetReadings.py
-    :caption: examples/Example1-GetReadings.py
+.. literalinclude:: ../examples/Example1-GetTemperature.py
+    :caption: examples/Example1-GetTemperature.py
     :linenos:
 
