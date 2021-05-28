@@ -2,7 +2,7 @@
 #
 # This is a python install script written for qwiic python package.
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by  SparkFun Electronics, May 2021
 #
 # This python library supports the SparkFun Electroncis qwiic
 # ecosystem, providing an plaform indepenant interface to the
@@ -13,7 +13,7 @@
 # Do you like this library? Help support SparkFun. Buy a board!
 #
 #==================================================================================
-# Copyright (c) 2019 SparkFun Electronics
+# Copyright (c) 2021 SparkFun Electronics
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

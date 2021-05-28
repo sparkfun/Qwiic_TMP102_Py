@@ -5,7 +5,7 @@
 # Simple Example for the Qwiic TMP102 Device
 #------------------------------------------------------------------------
 #
-# Written by  SparkFun Electronics, May 2019
+# Written by  SparkFun Electronics, May 2021
 # 
 # This python library supports the SparkFun Electroncis qwiic 
 # qwiic sensor/board ecosystem on a Raspberry Pi (and compatable) single
@@ -16,7 +16,7 @@
 # Do you like this library? Help support SparkFun. Buy a board!
 #
 #==================================================================================
-# Copyright (c) 2019 SparkFun Electronics
+# Copyright (c) 2021 SparkFun Electronics
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy 
 # of this software and associated documentation files (the "Software"), to deal 
