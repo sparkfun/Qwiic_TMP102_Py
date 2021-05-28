@@ -122,7 +122,7 @@ class QwiicTmp102Sensor(object):
         data = self._i2c.readBlock(self.address, TEMPERATURE_REGISTER, 2)
         
         if (data[0] == 0xFF and data[1] == 0xFF):
-                return NaN
+                return float("NAN")
                 
         if(data[1]&0x01):	# 13 bit mode
                 baseRead = ((data[0]) << 5) | (data[1] >> 3)
@@ -318,7 +318,7 @@ class QwiicTmp102Sensor(object):
         lowTempByte = self._i2c.readBlock(self.address, T_LOW_REGISTER, 2)
 
         if(lowTempByte[0] == 0xFF and lowTempByte[1] == 0xFF):
-                return NAN
+                return float("NAN")
 
         if (extendedMode):
                 digitalTemp = ((lowTempByte[0]) << 5) | (lowTempByte[1] >> 3)
@@ -345,7 +345,7 @@ class QwiicTmp102Sensor(object):
         highTempByte = self._i2c.readBlock(self.address, T_HIGH_REGISTER, 2)
 
         if(highTempByte[0] == 0xFF and highTempByte[1] == 0xFF):
-                return NAN
+                return float("NAN")
 
         if (extendedMode):
                 digitalTemp = ((highTempByte[0]) << 5) | (highTempByte[1] >> 3)
