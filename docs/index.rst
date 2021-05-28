@@ -31,8 +31,8 @@ Table of Contents
    :caption: Other Links
 
 	SparkFun <https://sparkfun.com>
-	SparkFun Soil Moisture Sensor <https://www.sparkfun.com/products/17731>
-	GitHub <https://github.com/sparkfun/Zio-Qwiic-Soil-Moisture-Sensor>
+	SparkFun Qwiic TMP102 Sensor <https://www.sparkfun.com/products/16304>
+	GitHub <https://github.com/sparkfun/Qwiic_TMP102_Py>
 	SparkFun qwiic <https://www.sparkfun.com/qwiic>
 
 
