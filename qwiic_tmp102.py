@@ -154,7 +154,7 @@ class QwiicTmp102Sensor(object):
         // Set the conversion rate (0-3)
         // 0 - 0.25 Hz
         // 1 - 1 Hz
-	// 2 - 4 Hz (default)
+	    // 2 - 4 Hz (default)
         // 3 - 8 Hz
         """
         
@@ -170,8 +170,8 @@ class QwiicTmp102Sensor(object):
     def set_extended_mode(self, mode):
         """
         Enable or disable extended mode
-	0 - disabled (-55C to +128C)
-	1 - enabled  (-55C to +150C)
+	    0 - disabled (-55C to +128C)
+	    1 - enabled  (-55C to +150C)
         """
         configByte = self._i2c.readBlock(self.address, CONFIG_REGISTER, 2)
         
