@@ -1,7 +1,7 @@
 
-Example2-Change_I2C_Address
+Example2_One-Shot_Temperature_Reading
 ---------------------------
-.. literalinclude:: ../examples/Example2-Change_I2C_Address.py
-    :caption: examples/Example2-Change_I2C_Address.py
+.. literalinclude:: ../examples/Example2_One-Shot_Temperature_Reading.py
+    :caption: examples/Example2_One-Shot_Temperature_Reading.py
     :linenos:
 
