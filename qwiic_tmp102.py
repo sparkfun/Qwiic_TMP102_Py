@@ -78,7 +78,7 @@ class QwiicTmp102Sensor(object):
 
     def is_connected(self):
         """
-            Determine if a Soil MoistureSensor device is conntected to the system..
+            Determine if a Qwiic TMP102 device is conntected to the system..
             :return: True if the device is connected, otherwise False.
             :rtype: bool
         """        
@@ -92,7 +92,7 @@ class QwiicTmp102Sensor(object):
     # Initialize the system/validate the board.
     def begin(self):
         """
-            Initialize the operation of the Soil Moisture Sensor module
+            Initialize the operation of the Qwiic TMP102 module
             :return: Returns true of the initialization was successful, otherwise False.
             :rtype: bool
         """
