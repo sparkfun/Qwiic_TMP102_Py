@@ -53,7 +53,7 @@ This driver package depends on the qwiic I2C driver:
 
 Documentation
 -------------
-The SparkFun qwiic TMP102 module documentation is hosted at [ReadTheDocs](https://qwiic-soil-moisture-sensor-py.readthedocs.io/en/latest/?)
+The SparkFun qwiic TMP102 module documentation is hosted at [ReadTheDocs](https://qwiic-tmp102-py.readthedocs.io/en/latest/?)
 
 Installation
 ---------------

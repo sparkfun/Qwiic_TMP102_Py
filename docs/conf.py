@@ -17,12 +17,12 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'sparkfun_qwiic_soil_moisture_sensor'
+project = 'sparkfun_qwiic_tmp102'
 copyright = '2021, SparkFun Electronics'
 author = 'SparkFun Electronics'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.9'
+release = '0.0.3'
 
 
 # -- General configuration ---------------------------------------------------

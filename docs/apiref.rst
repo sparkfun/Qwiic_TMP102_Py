@@ -1,5 +1,5 @@
 API Reference
 ==============
 
-.. automodule:: qwiic_soil_moisture_sensor
+.. automodule:: qwiic_tmp102
    :members:
