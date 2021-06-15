@@ -217,7 +217,7 @@ class QwiicTmp102Sensor(object):
         """
         alert = self._i2c.readByte(self.address, CONFIG_REGISTER)
         alert &= 0x20   #Clear everything but the alert bit (bit 5)
-        return alert>>5;
+        return alert>>5
         
     def one_shot(self, setOneShot = 0):
         """
